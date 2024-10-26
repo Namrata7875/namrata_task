@@ -1,0 +1,68 @@
+import 'package:flutter_task/model/product_model.dart';
+class MyProducts{
+  static List<Product> allProducts = [
+    Product(id: 1,
+        title: "Greenfab",
+        description: "Cotton khadi kurta set",
+        price: 1500,
+        image: "assets/images/image1.png",
+        rating: 4.6,
+        isFavorite: false),
+    Product(
+        id: 2,
+        title: "Greenfab",
+        description: "Cotton khadi kurta set",
+        price: 1500,
+        image: "assets/images/image2.png",
+        rating: 4.6,
+        isFavorite: true),
+    Product(
+        id: 3,
+        title: "Greenfab",
+        description: "Cotton khadi kurta set",
+        price: 1500,
+        image: "assets/images/image3.png",
+        rating: 4.6,
+        isFavorite: true),
+    Product(
+        id: 4,
+        title: "Greenfab",
+        description: "Cotton khadi kurta set",
+        price: 1500,
+        image: "assets/images/image4.png",
+        rating: 4.6,
+        isFavorite: true),
+    Product(
+        id: 5,
+        title: "Greenfab",
+        description: "Cotton khadi kurta set",
+        price: 1500,
+        image: "assets/images/image5.png",
+        rating: 4.6,
+        isFavorite: false),
+    Product(
+        id: 6,
+        title: "Greenfab",
+        description: "Cotton khadi kurta set",
+        price: 1500,
+        image: "assets/images/image6.png",
+        rating: 4.6,
+        isFavorite: true),
+    Product(
+        id: 7,
+        title: "Greenfab",
+        description: "Cotton khadi kurta set",
+        price: 1500,
+        image: "assets/images/image2.png",
+        rating: 4.6,
+        isFavorite: false),
+    Product(
+        id: 8,
+        title: "Greenfab",
+        description: "Cotton khadi kurta set",
+        price: 1500,
+        image: "assets/images/image1.png",
+        rating: 4.6,
+        isFavorite: true),
+  ];
+}
